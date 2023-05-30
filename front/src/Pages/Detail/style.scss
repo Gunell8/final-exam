@@ -1,0 +1,29 @@
+.back-datas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    height: 100vh;
+.card-txt{
+    width: 500px;
+    text-align: center;
+}
+.card-icon{
+  font-size: 30px;
+  text-align: center;
+}
+button{
+    background-color:#26B7E7;
+    padding: 20px 28px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    transition: calc(0.5);
+    margin-left: 20px;
+ }
+ button:hover{
+    color:#26B7E7 ;
+    background-color: white;
+    transform: scale(1.1);
+ }
+}

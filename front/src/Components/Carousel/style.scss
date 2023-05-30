@@ -1,0 +1,46 @@
+.bg {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+
+  &::before {
+    content: "";
+    background: #000 none repeat scroll 0 0;
+    opacity: 0.4;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .txt {
+    padding: 200px;
+    font-size: 20px;
+    color: white;
+    position: relative;
+    z-index: 9;
+    p {
+      width: 500px;
+    }
+    button {
+      background-color: #26b7e7;
+      padding: 20px 28px;
+      border: none;
+      cursor: pointer;
+      color: white;
+      transition: calc(0.5);
+    }
+    button:hover {
+      color: #26b7e7;
+      background-color: white;
+      transform: scale(1.1);
+    }
+  }
+}

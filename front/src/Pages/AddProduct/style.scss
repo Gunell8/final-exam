@@ -1,0 +1,27 @@
+.inpp{
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 600px;
+    input{
+        padding: 10px 18px;
+    }
+    button{
+        background-color:#26B7E7;
+        padding: 10px 18px;
+        border: none;
+        cursor: pointer;
+        color: white;
+        transition: calc(0.5);
+        margin-left: 20px;
+        margin-top: 20px;
+     }
+     button:hover{
+        color:#26B7E7 ;
+        background-color: white;
+        transform: scale(1.1);
+     }
+}
